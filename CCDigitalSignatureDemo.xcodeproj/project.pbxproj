@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5138A7ED1D9A0BF400C6B9C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A7EC1D9A0BF400C6B9C0 /* main.m */; };
+		5138A7F01D9A0BF400C6B9C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A7EF1D9A0BF400C6B9C0 /* AppDelegate.m */; };
+		5138A7F31D9A0BF400C6B9C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A7F21D9A0BF400C6B9C0 /* ViewController.m */; };
+		5138A7F61D9A0BF400C6B9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5138A7F41D9A0BF400C6B9C0 /* Main.storyboard */; };
+		5138A7F81D9A0BF400C6B9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5138A7F71D9A0BF400C6B9C0 /* Assets.xcassets */; };
+		5138A7FB1D9A0BF400C6B9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5138A7F91D9A0BF400C6B9C0 /* LaunchScreen.storyboard */; };
+		5138A80E1D9A0D3B00C6B9C0 /* OHPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A8061D9A0D3B00C6B9C0 /* OHPDFDocument.m */; };
+		5138A80F1D9A0D3B00C6B9C0 /* OHPDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A8091D9A0D3B00C6B9C0 /* OHPDFPage.m */; };
+		5138A8101D9A0D3B00C6B9C0 /* OHVectorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A80B1D9A0D3B00C6B9C0 /* OHVectorImage.m */; };
+		5138A8111D9A0D3B00C6B9C0 /* UIImage+OHPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A80D1D9A0D3B00C6B9C0 /* UIImage+OHPDF.m */; };
+		5138A8151D9A0D6E00C6B9C0 /* myOrderPDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5138A8141D9A0D6E00C6B9C0 /* myOrderPDF.pdf */; };
+		5138A8301D9A10DF00C6B9C0 /* LGBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A8291D9A10DF00C6B9C0 /* LGBoardView.m */; };
+		5138A8311D9A10DF00C6B9C0 /* LGColorSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A82B1D9A10DF00C6B9C0 /* LGColorSelectView.m */; };
+		5138A8321D9A10DF00C6B9C0 /* LGDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A82D1D9A10DF00C6B9C0 /* LGDrawer.m */; };
+		5138A8331D9A10DF00C6B9C0 /* LGPaintPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A82F1D9A10DF00C6B9C0 /* LGPaintPath.m */; };
+		5138A8361D9A113100C6B9C0 /* CCBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A8351D9A113100C6B9C0 /* CCBaseController.m */; };
+		5138A83C1D9A116D00C6B9C0 /* JRSignatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138A83B1D9A116D00C6B9C0 /* JRSignatureController.m */; };
+		5138A84E1D9A186C00C6B9C0 /* 关闭@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A83E1D9A186C00C6B9C0 /* 关闭@2x.png */; };
+		5138A84F1D9A186C00C6B9C0 /* 关闭@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A83F1D9A186C00C6B9C0 /* 关闭@3x.png */; };
+		5138A8501D9A186C00C6B9C0 /* 关闭禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A8401D9A186C00C6B9C0 /* 关闭禁用@2x.png */; };
+		5138A8511D9A186C00C6B9C0 /* 关闭禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A8411D9A186C00C6B9C0 /* 关闭禁用@3x.png */; };
+		5138A8521D9A186C00C6B9C0 /* 删除@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A8421D9A186C00C6B9C0 /* 删除@2x.png */; };
+		5138A8531D9A186C00C6B9C0 /* 删除@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A8431D9A186C00C6B9C0 /* 删除@3x.png */; };
+		5138A8541D9A186C00C6B9C0 /* 删除禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A8441D9A186C00C6B9C0 /* 删除禁用@2x.png */; };
+		5138A8551D9A186C00C6B9C0 /* 删除禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A8451D9A186C00C6B9C0 /* 删除禁用@3x.png */; };
+		5138A8561D9A186C00C6B9C0 /* 撤销@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A8461D9A186C00C6B9C0 /* 撤销@2x.png */; };
+		5138A8571D9A186C00C6B9C0 /* 撤销@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A8471D9A186C00C6B9C0 /* 撤销@3x.png */; };
+		5138A8581D9A186C00C6B9C0 /* 撤销禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A8481D9A186C00C6B9C0 /* 撤销禁用@2x.png */; };
+		5138A8591D9A186C00C6B9C0 /* 撤销禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A8491D9A186C00C6B9C0 /* 撤销禁用@3x.png */; };
+		5138A85A1D9A186C00C6B9C0 /* 重做@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A84A1D9A186C00C6B9C0 /* 重做@2x.png */; };
+		5138A85B1D9A186C00C6B9C0 /* 重做@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A84B1D9A186C00C6B9C0 /* 重做@3x.png */; };
+		5138A85C1D9A186C00C6B9C0 /* 重做禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A84C1D9A186C00C6B9C0 /* 重做禁用@2x.png */; };
+		5138A85D1D9A186C00C6B9C0 /* 重做禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138A84D1D9A186C00C6B9C0 /* 重做禁用@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5138A7E81D9A0BF400C6B9C0 /* CCDigitalSignatureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCDigitalSignatureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5138A7EC1D9A0BF400C6B9C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5138A7EE1D9A0BF400C6B9C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5138A7EF1D9A0BF400C6B9C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5138A7F11D9A0BF400C6B9C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5138A7F21D9A0BF400C6B9C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5138A7F51D9A0BF400C6B9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5138A7F71D9A0BF400C6B9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5138A7FA1D9A0BF400C6B9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5138A7FC1D9A0BF400C6B9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5138A8051D9A0D3B00C6B9C0 /* OHPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHPDFDocument.h; sourceTree = "<group>"; };
+		5138A8061D9A0D3B00C6B9C0 /* OHPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHPDFDocument.m; sourceTree = "<group>"; };
+		5138A8071D9A0D3B00C6B9C0 /* OHPDFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHPDFImage.h; sourceTree = "<group>"; };
+		5138A8081D9A0D3B00C6B9C0 /* OHPDFPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHPDFPage.h; sourceTree = "<group>"; };
+		5138A8091D9A0D3B00C6B9C0 /* OHPDFPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHPDFPage.m; sourceTree = "<group>"; };
+		5138A80A1D9A0D3B00C6B9C0 /* OHVectorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHVectorImage.h; sourceTree = "<group>"; };
+		5138A80B1D9A0D3B00C6B9C0 /* OHVectorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHVectorImage.m; sourceTree = "<group>"; };
+		5138A80C1D9A0D3B00C6B9C0 /* UIImage+OHPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OHPDF.h"; sourceTree = "<group>"; };
+		5138A80D1D9A0D3B00C6B9C0 /* UIImage+OHPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OHPDF.m"; sourceTree = "<group>"; };
+		5138A8141D9A0D6E00C6B9C0 /* myOrderPDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = myOrderPDF.pdf; sourceTree = "<group>"; };
+		5138A8281D9A10DF00C6B9C0 /* LGBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBoardView.h; sourceTree = "<group>"; };
+		5138A8291D9A10DF00C6B9C0 /* LGBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBoardView.m; sourceTree = "<group>"; };
+		5138A82A1D9A10DF00C6B9C0 /* LGColorSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGColorSelectView.h; sourceTree = "<group>"; };
+		5138A82B1D9A10DF00C6B9C0 /* LGColorSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGColorSelectView.m; sourceTree = "<group>"; };
+		5138A82C1D9A10DF00C6B9C0 /* LGDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDrawer.h; sourceTree = "<group>"; };
+		5138A82D1D9A10DF00C6B9C0 /* LGDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDrawer.m; sourceTree = "<group>"; };
+		5138A82E1D9A10DF00C6B9C0 /* LGPaintPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPaintPath.h; sourceTree = "<group>"; };
+		5138A82F1D9A10DF00C6B9C0 /* LGPaintPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPaintPath.m; sourceTree = "<group>"; };
+		5138A8341D9A113100C6B9C0 /* CCBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBaseController.h; sourceTree = "<group>"; };
+		5138A8351D9A113100C6B9C0 /* CCBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBaseController.m; sourceTree = "<group>"; };
+		5138A83A1D9A116D00C6B9C0 /* JRSignatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSignatureController.h; sourceTree = "<group>"; };
+		5138A83B1D9A116D00C6B9C0 /* JRSignatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSignatureController.m; sourceTree = "<group>"; };
+		5138A83E1D9A186C00C6B9C0 /* 关闭@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭@2x.png"; sourceTree = "<group>"; };
+		5138A83F1D9A186C00C6B9C0 /* 关闭@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭@3x.png"; sourceTree = "<group>"; };
+		5138A8401D9A186C00C6B9C0 /* 关闭禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭禁用@2x.png"; sourceTree = "<group>"; };
+		5138A8411D9A186C00C6B9C0 /* 关闭禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭禁用@3x.png"; sourceTree = "<group>"; };
+		5138A8421D9A186C00C6B9C0 /* 删除@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除@2x.png"; sourceTree = "<group>"; };
+		5138A8431D9A186C00C6B9C0 /* 删除@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除@3x.png"; sourceTree = "<group>"; };
+		5138A8441D9A186C00C6B9C0 /* 删除禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除禁用@2x.png"; sourceTree = "<group>"; };
+		5138A8451D9A186C00C6B9C0 /* 删除禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除禁用@3x.png"; sourceTree = "<group>"; };
+		5138A8461D9A186C00C6B9C0 /* 撤销@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销@2x.png"; sourceTree = "<group>"; };
+		5138A8471D9A186C00C6B9C0 /* 撤销@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销@3x.png"; sourceTree = "<group>"; };
+		5138A8481D9A186C00C6B9C0 /* 撤销禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销禁用@2x.png"; sourceTree = "<group>"; };
+		5138A8491D9A186C00C6B9C0 /* 撤销禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销禁用@3x.png"; sourceTree = "<group>"; };
+		5138A84A1D9A186C00C6B9C0 /* 重做@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做@2x.png"; sourceTree = "<group>"; };
+		5138A84B1D9A186C00C6B9C0 /* 重做@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做@3x.png"; sourceTree = "<group>"; };
+		5138A84C1D9A186C00C6B9C0 /* 重做禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做禁用@2x.png"; sourceTree = "<group>"; };
+		5138A84D1D9A186C00C6B9C0 /* 重做禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做禁用@3x.png"; sourceTree = "<group>"; };
+		5138A85F1D9A39E800C6B9C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5138A7E51D9A0BF400C6B9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5138A7DF1D9A0BF400C6B9C0 = {
+			isa = PBXGroup;
+			children = (
+				5138A7EA1D9A0BF400C6B9C0 /* CCDigitalSignatureDemo */,
+				5138A7E91D9A0BF400C6B9C0 /* Products */,
+				5138A85E1D9A39E800C6B9C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5138A7E91D9A0BF400C6B9C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5138A7E81D9A0BF400C6B9C0 /* CCDigitalSignatureDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5138A7EA1D9A0BF400C6B9C0 /* CCDigitalSignatureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5138A8121D9A0D6E00C6B9C0 /* Resources */,
+				5138A8021D9A0D3B00C6B9C0 /* Classes */,
+				5138A7EE1D9A0BF400C6B9C0 /* AppDelegate.h */,
+				5138A7EF1D9A0BF400C6B9C0 /* AppDelegate.m */,
+				5138A7F11D9A0BF400C6B9C0 /* ViewController.h */,
+				5138A7F21D9A0BF400C6B9C0 /* ViewController.m */,
+				5138A7F41D9A0BF400C6B9C0 /* Main.storyboard */,
+				5138A7F71D9A0BF400C6B9C0 /* Assets.xcassets */,
+				5138A7F91D9A0BF400C6B9C0 /* LaunchScreen.storyboard */,
+				5138A7FC1D9A0BF400C6B9C0 /* Info.plist */,
+				5138A7EB1D9A0BF400C6B9C0 /* Supporting Files */,
+			);
+			path = CCDigitalSignatureDemo;
+			sourceTree = "<group>";
+		};
+		5138A7EB1D9A0BF400C6B9C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5138A7EC1D9A0BF400C6B9C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5138A8021D9A0D3B00C6B9C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5138A8161D9A106B00C6B9C0 /* Controllers */,
+				5138A8031D9A0D3B00C6B9C0 /* Lib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5138A8031D9A0D3B00C6B9C0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				5138A8271D9A10DF00C6B9C0 /* LGDrawBoard */,
+				5138A8041D9A0D3B00C6B9C0 /* OHPDFImage */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		5138A8041D9A0D3B00C6B9C0 /* OHPDFImage */ = {
+			isa = PBXGroup;
+			children = (
+				5138A8051D9A0D3B00C6B9C0 /* OHPDFDocument.h */,
+				5138A8061D9A0D3B00C6B9C0 /* OHPDFDocument.m */,
+				5138A8071D9A0D3B00C6B9C0 /* OHPDFImage.h */,
+				5138A8081D9A0D3B00C6B9C0 /* OHPDFPage.h */,
+				5138A8091D9A0D3B00C6B9C0 /* OHPDFPage.m */,
+				5138A80A1D9A0D3B00C6B9C0 /* OHVectorImage.h */,
+				5138A80B1D9A0D3B00C6B9C0 /* OHVectorImage.m */,
+				5138A80C1D9A0D3B00C6B9C0 /* UIImage+OHPDF.h */,
+				5138A80D1D9A0D3B00C6B9C0 /* UIImage+OHPDF.m */,
+			);
+			path = OHPDFImage;
+			sourceTree = "<group>";
+		};
+		5138A8121D9A0D6E00C6B9C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5138A8131D9A0D6E00C6B9C0 /* PDF */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5138A8131D9A0D6E00C6B9C0 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				5138A8141D9A0D6E00C6B9C0 /* myOrderPDF.pdf */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		5138A8161D9A106B00C6B9C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5138A8341D9A113100C6B9C0 /* CCBaseController.h */,
+				5138A8351D9A113100C6B9C0 /* CCBaseController.m */,
+				5138A83A1D9A116D00C6B9C0 /* JRSignatureController.h */,
+				5138A83B1D9A116D00C6B9C0 /* JRSignatureController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5138A8271D9A10DF00C6B9C0 /* LGDrawBoard */ = {
+			isa = PBXGroup;
+			children = (
+				5138A83D1D9A186C00C6B9C0 /* image */,
+				5138A8281D9A10DF00C6B9C0 /* LGBoardView.h */,
+				5138A8291D9A10DF00C6B9C0 /* LGBoardView.m */,
+				5138A82A1D9A10DF00C6B9C0 /* LGColorSelectView.h */,
+				5138A82B1D9A10DF00C6B9C0 /* LGColorSelectView.m */,
+				5138A82C1D9A10DF00C6B9C0 /* LGDrawer.h */,
+				5138A82D1D9A10DF00C6B9C0 /* LGDrawer.m */,
+				5138A82E1D9A10DF00C6B9C0 /* LGPaintPath.h */,
+				5138A82F1D9A10DF00C6B9C0 /* LGPaintPath.m */,
+			);
+			path = LGDrawBoard;
+			sourceTree = "<group>";
+		};
+		5138A83D1D9A186C00C6B9C0 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5138A83E1D9A186C00C6B9C0 /* 关闭@2x.png */,
+				5138A83F1D9A186C00C6B9C0 /* 关闭@3x.png */,
+				5138A8401D9A186C00C6B9C0 /* 关闭禁用@2x.png */,
+				5138A8411D9A186C00C6B9C0 /* 关闭禁用@3x.png */,
+				5138A8421D9A186C00C6B9C0 /* 删除@2x.png */,
+				5138A8431D9A186C00C6B9C0 /* 删除@3x.png */,
+				5138A8441D9A186C00C6B9C0 /* 删除禁用@2x.png */,
+				5138A8451D9A186C00C6B9C0 /* 删除禁用@3x.png */,
+				5138A8461D9A186C00C6B9C0 /* 撤销@2x.png */,
+				5138A8471D9A186C00C6B9C0 /* 撤销@3x.png */,
+				5138A8481D9A186C00C6B9C0 /* 撤销禁用@2x.png */,
+				5138A8491D9A186C00C6B9C0 /* 撤销禁用@3x.png */,
+				5138A84A1D9A186C00C6B9C0 /* 重做@2x.png */,
+				5138A84B1D9A186C00C6B9C0 /* 重做@3x.png */,
+				5138A84C1D9A186C00C6B9C0 /* 重做禁用@2x.png */,
+				5138A84D1D9A186C00C6B9C0 /* 重做禁用@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		5138A85E1D9A39E800C6B9C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5138A85F1D9A39E800C6B9C0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5138A7E71D9A0BF400C6B9C0 /* CCDigitalSignatureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5138A7FF1D9A0BF400C6B9C0 /* Build configuration list for PBXNativeTarget "CCDigitalSignatureDemo" */;
+			buildPhases = (
+				5138A7E41D9A0BF400C6B9C0 /* Sources */,
+				5138A7E51D9A0BF400C6B9C0 /* Frameworks */,
+				5138A7E61D9A0BF400C6B9C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCDigitalSignatureDemo;
+			productName = CCDigitalSignatureDemo;
+			productReference = 5138A7E81D9A0BF400C6B9C0 /* CCDigitalSignatureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5138A7E01D9A0BF400C6B9C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = cloundCall;
+				TargetAttributes = {
+					5138A7E71D9A0BF400C6B9C0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SU8WEJ4S57;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5138A7E31D9A0BF400C6B9C0 /* Build configuration list for PBXProject "CCDigitalSignatureDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5138A7DF1D9A0BF400C6B9C0;
+			productRefGroup = 5138A7E91D9A0BF400C6B9C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5138A7E71D9A0BF400C6B9C0 /* CCDigitalSignatureDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5138A7E61D9A0BF400C6B9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5138A8501D9A186C00C6B9C0 /* 关闭禁用@2x.png in Resources */,
+				5138A7FB1D9A0BF400C6B9C0 /* LaunchScreen.storyboard in Resources */,
+				5138A85B1D9A186C00C6B9C0 /* 重做@3x.png in Resources */,
+				5138A8561D9A186C00C6B9C0 /* 撤销@2x.png in Resources */,
+				5138A8511D9A186C00C6B9C0 /* 关闭禁用@3x.png in Resources */,
+				5138A8581D9A186C00C6B9C0 /* 撤销禁用@2x.png in Resources */,
+				5138A84F1D9A186C00C6B9C0 /* 关闭@3x.png in Resources */,
+				5138A8591D9A186C00C6B9C0 /* 撤销禁用@3x.png in Resources */,
+				5138A7F81D9A0BF400C6B9C0 /* Assets.xcassets in Resources */,
+				5138A85D1D9A186C00C6B9C0 /* 重做禁用@3x.png in Resources */,
+				5138A85C1D9A186C00C6B9C0 /* 重做禁用@2x.png in Resources */,
+				5138A8521D9A186C00C6B9C0 /* 删除@2x.png in Resources */,
+				5138A85A1D9A186C00C6B9C0 /* 重做@2x.png in Resources */,
+				5138A8551D9A186C00C6B9C0 /* 删除禁用@3x.png in Resources */,
+				5138A8541D9A186C00C6B9C0 /* 删除禁用@2x.png in Resources */,
+				5138A84E1D9A186C00C6B9C0 /* 关闭@2x.png in Resources */,
+				5138A8151D9A0D6E00C6B9C0 /* myOrderPDF.pdf in Resources */,
+				5138A8571D9A186C00C6B9C0 /* 撤销@3x.png in Resources */,
+				5138A7F61D9A0BF400C6B9C0 /* Main.storyboard in Resources */,
+				5138A8531D9A186C00C6B9C0 /* 删除@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5138A7E41D9A0BF400C6B9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5138A8331D9A10DF00C6B9C0 /* LGPaintPath.m in Sources */,
+				5138A7F31D9A0BF400C6B9C0 /* ViewController.m in Sources */,
+				5138A83C1D9A116D00C6B9C0 /* JRSignatureController.m in Sources */,
+				5138A8361D9A113100C6B9C0 /* CCBaseController.m in Sources */,
+				5138A8101D9A0D3B00C6B9C0 /* OHVectorImage.m in Sources */,
+				5138A80F1D9A0D3B00C6B9C0 /* OHPDFPage.m in Sources */,
+				5138A7F01D9A0BF400C6B9C0 /* AppDelegate.m in Sources */,
+				5138A8111D9A0D3B00C6B9C0 /* UIImage+OHPDF.m in Sources */,
+				5138A80E1D9A0D3B00C6B9C0 /* OHPDFDocument.m in Sources */,
+				5138A8321D9A10DF00C6B9C0 /* LGDrawer.m in Sources */,
+				5138A7ED1D9A0BF400C6B9C0 /* main.m in Sources */,
+				5138A8301D9A10DF00C6B9C0 /* LGBoardView.m in Sources */,
+				5138A8311D9A10DF00C6B9C0 /* LGColorSelectView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5138A7F41D9A0BF400C6B9C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5138A7F51D9A0BF400C6B9C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5138A7F91D9A0BF400C6B9C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5138A7FA1D9A0BF400C6B9C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5138A7FD1D9A0BF400C6B9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5138A7FE1D9A0BF400C6B9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5138A8001D9A0BF400C6B9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SU8WEJ4S57;
+				INFOPLIST_FILE = CCDigitalSignatureDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloundCall.CCDigitalSignatureDemo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5138A8011D9A0BF400C6B9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SU8WEJ4S57;
+				INFOPLIST_FILE = CCDigitalSignatureDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloundCall.CCDigitalSignatureDemo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5138A7E31D9A0BF400C6B9C0 /* Build configuration list for PBXProject "CCDigitalSignatureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5138A7FD1D9A0BF400C6B9C0 /* Debug */,
+				5138A7FE1D9A0BF400C6B9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5138A7FF1D9A0BF400C6B9C0 /* Build configuration list for PBXNativeTarget "CCDigitalSignatureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5138A8001D9A0BF400C6B9C0 /* Debug */,
+				5138A8011D9A0BF400C6B9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5138A7E01D9A0BF400C6B9C0 /* Project object */;
+}
