@@ -22,7 +22,14 @@
     [super viewDidLoad];
     self.showImageView.image = [UIImage imageWithPDFNamed:@"myOrderPDF" fitInSize:self.showImageView.bounds.size];
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(go2Signature:)];
-    [self.view addGestureRecognizer:tapGesture];
+    [self.showImageView addGestureRecognizer:tapGesture];
+    UIPinchGestureRecognizer *pinGesture = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(pinchGesture:)];
+    [self.showImageView addGestureRecognizer:pinGesture];
+    
+    UIPanGestureRecognizer *panGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGesture:)];
+    [self.showImageView addGestureRecognizer:panGestureRecognizer];
+    self.showImageView.userInteractionEnabled = YES;
+
     UIBarButtonItem *exportItem = [[UIBarButtonItem alloc] initWithTitle:@"Export" style:UIBarButtonItemStyleDone target:self action:@selector(exportAction)];
     self.navigationItem.rightBarButtonItem = exportItem;
 }
@@ -45,6 +52,27 @@
     NSError *error;
     BOOL writeResult = [pdfData writeToFile:[NSString stringWithFormat:@"%@/%@",path,@"signatured.pdf"] options:NSDataWritingAtomic error:&error];
     NSLog(@"============ result:%d err:%@============",writeResult,error);
+}
+
+#pragma mark - Gesture Action
+
+
+- (void)pinchGesture:(UIPinchGestureRecognizer *)pinGesture {
+    NSLog(@"============ scale:%f velocity %f ============",pinGesture.scale, pinGesture.velocity);
+    UIView *view = pinGesture.view;
+    if (pinGesture.state == UIGestureRecognizerStateBegan || pinGesture.state == UIGestureRecognizerStateChanged) {
+        view.transform = CGAffineTransformScale(view.transform, pinGesture.scale, pinGesture.scale);
+        pinGesture.scale = 1;
+    }
+}
+
+- (void)panGesture:(UIPanGestureRecognizer *)panGesture {
+    UIView *view = panGesture.view;
+    if (panGesture.state == UIGestureRecognizerStateBegan || panGesture.state == UIGestureRecognizerStateChanged) {
+        CGPoint translation = [panGesture translationInView:view.superview];
+        [view setCenter:(CGPoint){view.center.x + translation.x, view.center.y + translation.y}];
+        [panGesture setTranslation:CGPointZero inView:view.superview];
+    }
 }
 
 - (void)go2Signature:(UITapGestureRecognizer *)tapGesture {
